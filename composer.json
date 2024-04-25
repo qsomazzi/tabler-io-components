@@ -3,6 +3,7 @@
     "description": "Convert tabler.io to Symfony Ux Components",
     "type": "library",
     "require": {
+        "php": ">=8.2",
         "symfony/ux-twig-component": "^2.17"
     },
     "autoload": {
@@ -14,5 +15,7 @@
         {
             "name": "Quentin SOMAZZI"
         }
-    ]
+    ],
+    "minimum-stability": "stable",
+    "prefer-stable": true
 }
