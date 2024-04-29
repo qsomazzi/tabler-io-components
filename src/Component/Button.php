@@ -6,7 +6,7 @@ namespace Qsomazzi\Component;
 
 use Symfony\UX\TwigComponent\Attribute\AsTwigComponent;
 
-#[AsTwigComponent('button')]
+#[AsTwigComponent('button', template: '@Qsomazzi/components/button.html.twig')]
 final class Button
 {
     public string $type = 'default';

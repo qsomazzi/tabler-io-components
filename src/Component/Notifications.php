@@ -7,7 +7,7 @@ namespace Qsomazzi\Component;
 use Symfony\Component\HttpFoundation\RequestStack;
 use Symfony\UX\TwigComponent\Attribute\AsTwigComponent;
 
-#[AsTwigComponent('notifications')]
+#[AsTwigComponent('notifications', template: '@Qsomazzi/components/notifications.html.twig')]
 final class Notifications
 {
     public function __construct(private readonly RequestStack $requestStack)
